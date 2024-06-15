@@ -14,12 +14,12 @@ import javax.swing.plaf.basic.BasicTextAreaUI;
  *
  * @author avih2
  */
-public class infoMenu extends javax.swing.JFrame {
+public class infoMenu1 extends javax.swing.JFrame {
 
     /**
      * Creates new form infoMenu
      */
-    public infoMenu() {
+    public infoMenu1() {
         initComponents();
     }
 
@@ -59,13 +59,13 @@ public class infoMenu extends javax.swing.JFrame {
         });
 
         titleField.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        titleField.setText(" Impacts of Technology");
+        titleField.setText("Reducing Impacts");
 
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Technology has significant impacts on the environment and human health, both positive and negative. Renewable energy technologies like solar panels and wind turbines reduce reliance on fossil fuels, lowering greenhouse gas emissions and air pollution. Energy-efficient solutions such as smart grids and LED lighting also reduce energy consumption. Pollution monitoring technologies, like air quality sensors and water purification systems, help manage and reduce environmental contamination. In agriculture, precision and vertical farming promote sustainable practices, optimizing crop yields and reducing waste. However, technology also brings environmental challenges. E-waste, with its hazardous materials, poses a significant problem due to improper disposal. The manufacturing of electronic devices depletes rare earth minerals and consumes large amounts of water and energy. Data centers contribute to pollution and greenhouse gas emissions due to their high energy demands. Additionally, infrastructure development for technology can lead to habitat destruction, affecting biodiversity. On the health front, technology has revolutionized healthcare. Telemedicine allows remote consultations, improving access to healthcare, particularly in remote areas. Wearable health devices monitor vital signs, enabling early detection of health issues. Imaging technologies like MRI and CT scans enhance diagnostics and treatments, while personalized medicine tailors treatments to individual patients. Mobile health apps and online communities increase health awareness, empowering individuals to manage their health better. Electronic Health Records (EHR) and remote monitoring systems streamline patient information management and reduce the need for frequent hospital visits. Despite these benefits, technology can negatively affect health. Mobile phones and wireless networks raise concerns about electromagnetic radiation exposure. Increased screen time contributes to a sedentary lifestyle, leading to obesity and related diseases. Excessive social media use can lead to mental health issues like anxiety, depression, and social media addiction. Blue light from screens can disrupt sleep patterns, causing sleep disorders.  In conclusion, technology profoundly impacts the environment and human health, offering benefits and challenges.");
+        jTextArea1.setText("One of the most effective ways to mitigate e-waste is to follow the principles of reduce, reuse, and recycle. Consumers can extend the lifespan of their electronic devices by repairing and upgrading them instead of replacing them frequently. Proper recycling of old devices ensures that hazardous materials are safely managed and valuable components are reused. Choosing products from companies committed to sustainable practices can significantly reduce environmental harm. Look for devices made with recycled materials and designed for longevity. Supporting businesses that prioritize ethical sourcing of materials and energy-efficient manufacturing processes can drive the industry toward greener practices. Individuals can reduce their carbon footprint by using energy-efficient devices and appliances. Simple actions like turning off electronics when not in use, using power strips, and choosing LED lighting can significantly reduce energy consumption. Additionally, investing in renewable energy sources, such as solar panels for homes, can decrease reliance on fossil fuels. To mitigate the health impacts of technology, individuals can practice digital detoxes and set boundaries for screen time. Encouraging regular breaks from screens, engaging in physical activities, and fostering face-to-face interactions can improve mental and physical health. Using apps that limit screen time and reduce blue light exposure can also help improve sleep quality. Raising awareness about the environmental and health impacts of technology is crucial. Educating oneself and others about sustainable practices, responsible consumption, and the importance of recycling can lead to more informed decisions. Advocacy for stronger regulations and policies that promote sustainable technology and responsible e-waste management is essential for systemic change. Encouraging the use of telemedicine and remote work can reduce carbon emissions associated with travel. These practices not only provide flexibility and improve access to services but also contribute to environmental sustainability by minimizing the need for commuting and reducing the overall carbon footprint. By adopting these strategies, individuals can play a crucial role in reducing the negative impacts of technology, promoting a healthier environment and improving overall well-being.");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
@@ -93,9 +93,9 @@ public class infoMenu extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(24, 24, 24)
                 .addComponent(titleField)
-                .addGap(43, 43, 43)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addGap(44, 44, 44)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 417, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(goButton)
                     .addComponent(returnButton))
@@ -112,15 +112,15 @@ public void close(){
     private void goButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goButtonActionPerformed
         // TODO add your handling code here:
         close();
-        infoMenu1 info = new infoMenu1();
+        infoMenu2 info = new infoMenu2();
         info.setVisible(true);
     }//GEN-LAST:event_goButtonActionPerformed
 
     private void returnButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_returnButtonActionPerformed
         // TODO add your handling code here:
         close();
-        mainMenu menu = new mainMenu();
-        menu.setVisible(true);
+        infoMenu info = new infoMenu();
+        info.setVisible(true);
     }//GEN-LAST:event_returnButtonActionPerformed
 
     
@@ -141,20 +141,21 @@ public void close(){
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new infoMenu().setVisible(true);
+                new infoMenu1().setVisible(true);
             }
         });
     }

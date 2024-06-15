@@ -14,12 +14,12 @@ import javax.swing.plaf.basic.BasicTextAreaUI;
  *
  * @author avih2
  */
-public class infoMenu extends javax.swing.JFrame {
+public class infoMenu2 extends javax.swing.JFrame {
 
     /**
      * Creates new form infoMenu
      */
-    public infoMenu() {
+    public infoMenu2() {
         initComponents();
     }
 
@@ -41,7 +41,7 @@ public class infoMenu extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         goButton.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        goButton.setText("Next");
+        goButton.setText("To Quiz");
         goButton.setFocusPainted(false);
         goButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -59,13 +59,13 @@ public class infoMenu extends javax.swing.JFrame {
         });
 
         titleField.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        titleField.setText(" Impacts of Technology");
+        titleField.setText("Programs and Initiatives ");
 
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Technology has significant impacts on the environment and human health, both positive and negative. Renewable energy technologies like solar panels and wind turbines reduce reliance on fossil fuels, lowering greenhouse gas emissions and air pollution. Energy-efficient solutions such as smart grids and LED lighting also reduce energy consumption. Pollution monitoring technologies, like air quality sensors and water purification systems, help manage and reduce environmental contamination. In agriculture, precision and vertical farming promote sustainable practices, optimizing crop yields and reducing waste. However, technology also brings environmental challenges. E-waste, with its hazardous materials, poses a significant problem due to improper disposal. The manufacturing of electronic devices depletes rare earth minerals and consumes large amounts of water and energy. Data centers contribute to pollution and greenhouse gas emissions due to their high energy demands. Additionally, infrastructure development for technology can lead to habitat destruction, affecting biodiversity. On the health front, technology has revolutionized healthcare. Telemedicine allows remote consultations, improving access to healthcare, particularly in remote areas. Wearable health devices monitor vital signs, enabling early detection of health issues. Imaging technologies like MRI and CT scans enhance diagnostics and treatments, while personalized medicine tailors treatments to individual patients. Mobile health apps and online communities increase health awareness, empowering individuals to manage their health better. Electronic Health Records (EHR) and remote monitoring systems streamline patient information management and reduce the need for frequent hospital visits. Despite these benefits, technology can negatively affect health. Mobile phones and wireless networks raise concerns about electromagnetic radiation exposure. Increased screen time contributes to a sedentary lifestyle, leading to obesity and related diseases. Excessive social media use can lead to mental health issues like anxiety, depression, and social media addiction. Blue light from screens can disrupt sleep patterns, causing sleep disorders.  In conclusion, technology profoundly impacts the environment and human health, offering benefits and challenges.");
+        jTextArea1.setText("In Ottawa various programs and initiatives aim to mitigate the negative impacts of technology on the environment and human health. The city has several e-waste recycling programs, such as the Electronic Waste Recycling Program, which provides convenient drop-off locations for residents to dispose of old electronics responsibly. Additionally, Ottawa's Green Bin program encourages composting, reducing landfill waste and promoting sustainability. On a broader scale, the Canadian government has implemented the Canada Greener Homes Grant, offering homeowners grants to improve energy efficiency, such as installing solar panels or upgrading insulation. This initiative helps reduce energy consumption and lower greenhouse gas emissions. Private organizations in Ottawa also contribute to environmental sustainability. The Ottawa Renewable Energy Cooperative (OREC) invests in local renewable energy projects, allowing community members to participate in and benefit from clean energy initiatives. Furthermore, companies like EnviroCentre provide services and resources to help individuals and businesses adopt more sustainable practices, including energy audits and green transportation solutions. Globally, organizations such as the Ellen MacArthur Foundation promote the circular economy, encouraging businesses to design products for longevity, reuse, and recycling. Similarly, the World Health Organization (WHO) works on initiatives to address the health impacts of technology, promoting guidelines for safe and healthy technology use.");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
@@ -93,9 +93,9 @@ public class infoMenu extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(24, 24, 24)
                 .addComponent(titleField)
-                .addGap(43, 43, 43)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addGap(44, 44, 44)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 145, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(goButton)
                     .addComponent(returnButton))
@@ -112,15 +112,15 @@ public void close(){
     private void goButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goButtonActionPerformed
         // TODO add your handling code here:
         close();
-        infoMenu1 info = new infoMenu1();
-        info.setVisible(true);
+        questionsMenu questions = new questionsMenu();
+        questions.setVisible(true);
     }//GEN-LAST:event_goButtonActionPerformed
 
     private void returnButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_returnButtonActionPerformed
         // TODO add your handling code here:
         close();
-        mainMenu menu = new mainMenu();
-        menu.setVisible(true);
+        infoMenu info = new infoMenu();
+        info.setVisible(true);
     }//GEN-LAST:event_returnButtonActionPerformed
 
     
@@ -141,20 +141,27 @@ public void close(){
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(infoMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(infoMenu2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new infoMenu().setVisible(true);
+                new infoMenu2().setVisible(true);
             }
         });
     }

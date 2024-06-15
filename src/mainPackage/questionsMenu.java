@@ -30,12 +30,29 @@ public class questionsMenu extends javax.swing.JFrame {
         JCheckBox[] answerBox01={answer0,answer1,answer2,answer3};
         System.arraycopy(answerBox01, 0, answerBox, 0, answerBox01.length);
         
-        Questions q1 = new Questions("test title","test question", new String[]{"test0","test1","test2","test3"},0);
-        Questions q2 = new Questions("test title","test question", new String[]{"test0","test1","test2","test3"},1);
-        Questions q3 = new Questions("test title","test question", new String[]{"test0","test1","test2","test3"},2);
+        Questions q1 = new Questions("Major Impact","What is a major positive impact of renewable energy technologies on the environment?", new String[]{"Increased greenhouse gas emissions","Depletion of rare earth minerals","Reduction in air pollution","Increased water consumption"},2);
+        Questions q2 = new Questions("E-Waste Impact","Which of the following is a significant negative impact of e-waste on the environment?", new String[]{"Improved recycling processes","Hazardous material contamination","Enhanced economic growth","Development of green technologies"},1);
+        Questions q3 = new Questions("Telemedicine Impact","How has telemedicine positively impacted human health?", new String[]{"Increased electromagnetic radiation exposure","Reduced access to healthcare","Improved remote healthcare access","Increased healthcare costs"},2);
+        Questions q4 = new Questions("Screen Time Impact","What is a negative health impact associated with increased screen time?", new String[]{"Enhanced mental well-being","Improved physical fitness","Increased risk of obesity","Better sleep quality"},2);
+        Questions q5 = new Questions("Energy Usage Impact","Which of the following technologies helps in reducing energy consumption?", new String[]{"Traditional incandescent bulbs","LED lighting","Fossil fuel power plants","Single-use batteries"},1);
+        Questions q6 = new Questions("Social Media Impact","What is a common mental health issue linked to excessive use of social media?", new String[]{"Improved social interactions","Reduced anxiety levels","Social media addiction","Enhanced physical activity"},2);
+        Questions q7 = new Questions("E-Waste Mitigation","What is one effective way to mitigate e-waste?", new String[]{"Frequently replacing devices","Proper recycling of old devices","Ignoring proper disposal methods","Using single-use electronics"},1);
+        Questions q8 = new Questions("Footprint Reduction","How can individuals reduce their carbon footprint with energy-efficient practices?", new String[]{"Investing in renewable energy sources","Using traditional incandescent bulbs","Leaving electronics on when not in use","Using non-rechargeable batteries"},0);
+        Questions q9 = new Questions("Improving Health","What practice can improve mental and physical health related to technology use?", new String[]{"Ignoring physical activities","Increasing screen time","Reducing face-to-face interactions","Practicing digital detoxes"},3);
+        Questions q10 = new Questions("Awarness of Impacts","Why is educating and advocating about the impacts of technology important?", new String[]{"It promotes sustainable practices and responsible consumption","It encourages the use of more energy","It leads to less informed decisions","It decreases awareness about recycling"},0);
+        Questions q11 = new Questions("Ottawa Program","What is one of the programs in Ottawa that helps reduce landfill waste?", new String[]{"Electronic Waste Recycling Program","Canada Greener Homes Grant","Ottawa Renewable Energy Cooperative","Green Bin program"},3);
         questionsList.add(q1);
         questionsList.add(q2);
         questionsList.add(q3);
+        questionsList.add(q4);
+        questionsList.add(q5);
+        questionsList.add(q6);
+        questionsList.add(q7);
+        questionsList.add(q8);
+        questionsList.add(q9);
+        questionsList.add(q10);
+        questionsList.add(q11);
+        
         
         writeScreen();
     }
@@ -167,11 +184,10 @@ public class questionsMenu extends javax.swing.JFrame {
                                         .addComponent(jLabel4)
                                         .addGap(12, 12, 12)))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(answer3, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(answer1, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(answer2, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(answer0, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 730, Short.MAX_VALUE))
+                                    .addComponent(answer0, javax.swing.GroupLayout.DEFAULT_SIZE, 833, Short.MAX_VALUE)
+                                    .addComponent(answer1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(answer2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(answer3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(checkButton)))))

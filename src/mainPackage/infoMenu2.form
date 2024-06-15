@@ -51,9 +51,9 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
               <Component id="titleField" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="413" max="-2" attributes="0"/>
-              <EmptySpace pref="47" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="314" max="-2" attributes="0"/>
+              <EmptySpace pref="145" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="goButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="returnButton" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -69,7 +69,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="14" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Next"/>
+        <Property name="text" type="java.lang.String" value="To Quiz"/>
         <Property name="focusPainted" type="boolean" value="false"/>
       </Properties>
       <Events>
@@ -93,7 +93,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="24" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value=" Impacts of Technology"/>
+        <Property name="text" type="java.lang.String" value="Programs and Initiatives "/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -111,7 +111,7 @@
             </Property>
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Technology has significant impacts on the environment and human health, both positive and negative. Renewable energy technologies like solar panels and wind turbines reduce reliance on fossil fuels, lowering greenhouse gas emissions and air pollution. Energy-efficient solutions such as smart grids and LED lighting also reduce energy consumption. Pollution monitoring technologies, like air quality sensors and water purification systems, help manage and reduce environmental contamination. In agriculture, precision and vertical farming promote sustainable practices, optimizing crop yields and reducing waste. However, technology also brings environmental challenges. E-waste, with its hazardous materials, poses a significant problem due to improper disposal. The manufacturing of electronic devices depletes rare earth minerals and consumes large amounts of water and energy. Data centers contribute to pollution and greenhouse gas emissions due to their high energy demands. Additionally, infrastructure development for technology can lead to habitat destruction, affecting biodiversity. On the health front, technology has revolutionized healthcare. Telemedicine allows remote consultations, improving access to healthcare, particularly in remote areas. Wearable health devices monitor vital signs, enabling early detection of health issues. Imaging technologies like MRI and CT scans enhance diagnostics and treatments, while personalized medicine tailors treatments to individual patients. Mobile health apps and online communities increase health awareness, empowering individuals to manage their health better. Electronic Health Records (EHR) and remote monitoring systems streamline patient information management and reduce the need for frequent hospital visits. Despite these benefits, technology can negatively affect health. Mobile phones and wireless networks raise concerns about electromagnetic radiation exposure. Increased screen time contributes to a sedentary lifestyle, leading to obesity and related diseases. Excessive social media use can lead to mental health issues like anxiety, depression, and social media addiction. Blue light from screens can disrupt sleep patterns, causing sleep disorders.  In conclusion, technology profoundly impacts the environment and human health, offering benefits and challenges."/>
+            <Property name="text" type="java.lang.String" value="In Ottawa various programs and initiatives aim to mitigate the negative impacts of technology on the environment and human health. The city has several e-waste recycling programs, such as the Electronic Waste Recycling Program, which provides convenient drop-off locations for residents to dispose of old electronics responsibly. Additionally, Ottawa&apos;s Green Bin program encourages composting, reducing landfill waste and promoting sustainability. On a broader scale, the Canadian government has implemented the Canada Greener Homes Grant, offering homeowners grants to improve energy efficiency, such as installing solar panels or upgrading insulation. This initiative helps reduce energy consumption and lower greenhouse gas emissions. Private organizations in Ottawa also contribute to environmental sustainability. The Ottawa Renewable Energy Cooperative (OREC) invests in local renewable energy projects, allowing community members to participate in and benefit from clean energy initiatives. Furthermore, companies like EnviroCentre provide services and resources to help individuals and businesses adopt more sustainable practices, including energy audits and green transportation solutions. Globally, organizations such as the Ellen MacArthur Foundation promote the circular economy, encouraging businesses to design products for longevity, reuse, and recycling. Similarly, the World Health Organization (WHO) works on initiatives to address the health impacts of technology, promoting guidelines for safe and healthy technology use."/>
             <Property name="wrapStyleWord" type="boolean" value="true"/>
           </Properties>
         </Component>
