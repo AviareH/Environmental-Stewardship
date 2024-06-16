@@ -23,6 +23,7 @@ public finalMenu() {
     initComponents();
     scoreField.setText(String.valueOf((int)correct) + "/" + String.valueOf((int)total)); 
     percentField.setText(String.valueOf(roundedNumber) + "%");
+    questionsMenu.clearList();
 }
 
     /**

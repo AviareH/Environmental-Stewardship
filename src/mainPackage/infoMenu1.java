@@ -61,6 +61,7 @@ public class infoMenu1 extends javax.swing.JFrame {
         titleField.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         titleField.setText("Reducing Impacts");
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextArea1.setLineWrap(true);

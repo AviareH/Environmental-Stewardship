@@ -341,6 +341,11 @@ public class questionsMenu extends javax.swing.JFrame {
     public static int getTotalAnswers(){
         return questionsList.size();
     }
+    public static void clearList(){
+        questionsList.clear();
+        correctAnswers =0;
+    }
+        
     /**
      * @param args the command line arguments
      */
